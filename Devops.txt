@@ -1,0 +1,61 @@
+-----What is version Control system?-----
+
+History Tracking: 
+- chronological history of revisions.
+- allows developers to review changes.
+- understand who made them
+- and why?
+
+Branching and Merging:
+- create separate branches.
+- work on different features or bug fixes independently.
+- can later be merged back into the main codebase.
+- facilitating parallel development and experimentation.
+
+Collaboration:
+- multiple developers.
+- simultaneously.
+- Changes can be-: 
+                  (i)shared
+                  (ii)reviewed
+                  (iii)merged
+- promoting collaboration and reducing conflicts.
+
+Rollback and Revert:
+- In case of errors or unwanted changes.
+- rollback to a previous version of the code. 
+- helps in address issues and maintain code stability.
+
+Annotations and Comments:
+- explaining the purpose and rationale behind specific modifications.
+
+Backup and Disaster Recovery:
+- accidentally deleted or corrupted, they can be recovered from the version history.
+
+Code Review and Quality Assurance:
+- allowing reviewers to easily see and comment on proposed changes 
+  before they are merged into the main codebase.
+
+Tagging and Versioning:
+- supports tagging specific points in history.
+- creating stable snapshots that can be referred to later.
+
+used for working efficiently, collaborate effectively, and maintain code integrity over time.
+
+Git has become the most widely used version control system due to its speed, 
+flexibility, and powerful branching and merging capabilities.
+
+
+
+-----Git Branching, merging strategies.-----
+
+- Creates a new branch for each new feature, bug fix, or enhancement.
+- Developers work on their respective branches, isolating their changes from the main codebase.
+- Once the feature is complete, it's merged back into the main branch.
+
+FLOW-:
+- Main branch is typically 'main'.
+- Developers create feature branches, work on them, and submit pull requests 
+  to merge them into the main branch.
+- Code reviews and discussions happen in pull requests before merging.
+- Continuous integration/testing ensures code quality before merging.
